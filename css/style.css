@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+body {
+    margin: 0;
+}
+
+.header {
+    color: #9000ff;
+    font-family: "Cherry Cream Soda", sans-serif;
+    padding: 1px;
+    text-align: center;
+    font-size: 100px;
+    margin: 0;
+}
+
+.header_background {
+    height: 350px;
+    background-image: url("../Images/coffee-bgnd.jpeg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-top: 20px;
+}
