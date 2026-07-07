@@ -1,0 +1,22 @@
+.white {
+    height: 200px;
+    width: 200px;
+    background-color: white;
+}
+
+.black {
+    height: 200px;
+    width: 200px;
+    background-color: black;
+}
+
+.main {
+    position: relative;
+}
+
+.table {
+    margin: 0 auto;
+    border: 35px solid black;
+    padding: 0;
+    border-spacing: 0px;
+}
