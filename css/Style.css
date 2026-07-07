@@ -1,0 +1,28 @@
+body {
+    padding-top: 50px;
+}
+
+.ring {
+    display: inline-block;
+    padding: 120px;
+    border-radius: 50%;
+    border: 30px solid;
+    margin: 8px;
+    box-sizing: border-box;
+}
+
+
+.blue   { border-color: blue; }
+.black  { border-color: black; }
+.red    { border-color: red; }
+.yellow { border-color: #ffc400; }
+.green  { border-color: green; }
+
+
+.box-upper, .box-lower {
+    text-align: center;
+    margin-bottom: -5px;
+    line-height: 0;
+}
+
+.box-lower { position: relative; top: -170px;}
