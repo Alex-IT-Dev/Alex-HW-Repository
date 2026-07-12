@@ -1,15 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+*
+{
     margin: 0;
 }
 
-body {
+body
+{
     font-family: 'Raleway', sans-serif;
     background-color: whitesmoke;
 }
 
-.header {
+.header
+{
     height: 400px;
     background-image: url("../Images/coffee-bgnd.jpeg");
     background-position: center;
@@ -17,7 +20,8 @@ body {
     background-size: cover;
 }
 
-.header > h1 {
+.header > h1
+{
     font-size: 100px;
     font-family: "Covered By Your Grace", cursive;
     color: #2B1810BF;
@@ -26,23 +30,27 @@ body {
 
 }
 
-.main {
+.main
+{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.left {
+.left
+{
     width: 49%;
     display: inline-block;
 }
 
-.right {
+.right
+{
     width: 49%;
     display: inline-block;
 }
 
-.left div {
+.left div
+{
     color: #454;
     font-weight: 500;
     padding: 0 10px;
@@ -53,7 +61,8 @@ body {
 "); opacity: 0.3;
 }
 
-.right div {
+.right div
+{
     color: #454;
     font-weight: 500;
     padding: 0 10px;
@@ -64,7 +73,8 @@ body {
 "); opacity: 0.3;
 }
 
-.main div > h2 {
+.main div > h2
+{
     font-size: 28px;
     font-weight: 900;
     background-color: rgb(188 170 164 / 90);
@@ -73,11 +83,13 @@ body {
     text-transform: uppercase;
 }
 
-.main div > p {
+.main div > p
+{
     font-weight: 900;
 }
 
-.main div > a {
+.main div > a
+{
     color: #445544;
     font-weight: 600;
     text-transform: uppercase;
