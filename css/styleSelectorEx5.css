@@ -1,0 +1,17 @@
+#p1 ~ .Green {
+	color: white;
+	background-color: #49c300;
+	}
+
+/*
+
+5. Общий соседний селектор (через ~)
+  Выберет ВСЕ кнопки .btn-delete, которые идут после чекбокса .checkbox-trigger на одном уровне
+.checkbox-trigger ~ .btn-delete {
+	opacity: 0.5;
+	}
+
+ */
+
+
+
