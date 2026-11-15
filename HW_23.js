@@ -30,17 +30,7 @@ async function main() {
   console.log("AI Response:", aiResponse);
 
   const statusCodes = [
-    "200",
-    "201",
-    "204",
-    "301",
-    "400",
-    "401",
-    "403",
-    "404",
-    "500",
-    "502",
-    "503",
+    "200", "201", "204", "301", "400", "401", "403", "404", "500", "502", "503",
   ];
   const codeBlocksFilter = ["const ", "let ", "fetch(", "http", "//"];
 
@@ -63,35 +53,10 @@ async function main() {
   }
 
   const restMethods = [
-    "GET",
-    "POST",
-    "PUT",
-    "PATCH",
-    "DELETE",
-    "HEAD",
-    "OPTIONS",
+    "GET", "POST", "PUT", "PATCH", "DELETE", "HEAD", "OPTIONS",
   ];
   const separators = [
-    ".",
-    ",",
-    ":",
-    ";",
-    "!",
-    "?",
-    "(",
-    ")",
-    "[",
-    "]",
-    "{",
-    "}",
-    "'",
-    '"',
-    "`",
-    "*",
-    "-",
-    "/",
-    "\n",
-    "\r",
+    ".", ",", ":", ";", "!", "?", "(", ")", "[", "]", "{", "}", "'", '"', "`", "*", "-", "/", "\n", "\r",
   ];
 
   const cleanedText = separators.reduce(
